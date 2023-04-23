@@ -1,6 +1,6 @@
 // declarar una variable que me va a servir
 // para ver si se cumple cierta condicion
-$vista:tablet;
+$vista:monitorRiquelme;
 
 @body{
     @if $vista == desktop{

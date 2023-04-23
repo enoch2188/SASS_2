@@ -1,3 +1,20 @@
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
 .grid div {
   border: 1px solid black;
 }
@@ -212,7 +229,26 @@ img {
 
 /* TABLET */
 @body {
-  background-color: goldenrod;
+  background-color: silver;
+}
+.m-1 {
+  margin: 10px;
+}
+
+.m-2 {
+  margin: 20px;
+}
+
+.m-3 {
+  margin: 30px;
+}
+
+.m-4 {
+  margin: 40px;
+}
+
+.m-5 {
+  margin: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
