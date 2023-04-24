@@ -20,3 +20,31 @@
         color:#{$color};
     }
 }
+
+// MAPA
+
+$dispo:(
+    desktop:4rem,
+    mobile:2rem,
+    tablet:2.3rem,
+);
+
+@each $dispo, $tamaFuente in $dispo{
+    .p-#{$dispo}{
+        font-size:$tamaFuente;
+    }
+}
+
+$estilosTipograficos:(
+    fSize:4rem,
+    fColor:silver,   
+    text-align:center,
+    display:flex, 
+    fFamily:'arial'
+);
+
+h1{
+    font-size:map-get($estilosTipograficos, fSize);
+    color:map-get($estilosTipograficos,fColor);
+    font-family:map-get($estilosTipograficos,fFamily);
+}

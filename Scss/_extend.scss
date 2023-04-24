@@ -1,0 +1,25 @@
+// EXTEND
+.boton{
+    width:200px;
+    height: 50px;
+    text-align: center;
+    background-color: $colorSecundario;
+    color:gray;
+    border: 10px solid $blue;
+    border-radius: 20px;
+    padding:10px;
+    margin:10px;
+}
+// BOTON EXITO, ERROR, ADVERTENCIA, PRIMARIO, SECUNDARIO, TERCIARIO
+.boton-exito{}
+.boton-error{}
+.boton-advertencia{}
+.boton-primario{}
+.boton-secundario{}
+.boton_terciario{}
+
+@each $contexto in exito, error, advertencia, primario, secundario, terciario{
+    .boton-#{$contexto}{
+        @extend .boton;
+    }
+}
