@@ -1,18 +1,341 @@
-/* Error: expected ";".
- *   ,
- * 9 | $pDesktop:1.7rem;
- *   |          ^
- *   '
- *   scss\_variables.scss 9:10  @import
- *   scss\style.scss 1:9        root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a   \2577 \a 9 \2502  $pDesktop:1.7rem;\d\a   \2502           ^\a   \2575 \a   scss\\_variables.scss 9:10  @import\a   scss\\style.scss 1:9        root stylesheet';
+.mb20 {
+  margin-bottom: 20px;
 }
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradientNav {
+  font-size: 30px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.transform {
+  transform: translate(10px, 43px);
+}
+
+.scale {
+  transition: all 1s;
+}
+.scale:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.grid div {
+  border: 1px solid black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: auto auto;
+}
+
+head {
+  background-color: grey;
+}
+
+li {
+  padding: 20px;
+  transition: 1s all;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 1.5s all;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+li:hover {
+  color: blue;
+  font-size: 20px;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 11px;
+}
+
+header {
+  background: rgb(41, 20, 204);
+  background: linear-gradient(0deg, rgb(41, 20, 204) 32%, rgb(225, 237, 24) 38%, rgb(225, 237, 24) 63%, rgb(41, 20, 204) 67%);
+}
+
+.hover {
+  transition: 2s all;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  header, body, main, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    padding: 0px;
+  }
+  a {
+    color: blue;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .gridmainequipos {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* DESKTOP */
+@media (min-width: 1024px) {
+  /* GRID INDEX */
+  .gridindex {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+  }
+  .gridindex2 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+  }
+  header, footer, ul {
+    display: flex;
+  }
+  main {
+    display: grid;
+    grid-template-areas: "imgPrincipal imgPrincipal imgPrincipal" "titulo titulo titulo" "pIzq imgTexto pDer";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+  .imgPrincipal {
+    grid-area: imgPrincipal;
+  }
+  .titulo {
+    grid-area: titulo;
+  }
+  .parrafoIzq {
+    grid-area: pIzq;
+  }
+  .imgtexto {
+    grid-area: imgtexto;
+  }
+  .parrafoDer {
+    grid-area: pDer;
+  }
+  .just-content-spa-betw {
+    justify-content: space-between;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+  a {
+    color: black;
+    font-size: 28px;
+    padding: 5px;
+    margin: 10px;
+  }
+  .hover {
+    transition: 1s all;
+  }
+}
+.jusconbetween {
+  justify-content: space-between;
+}
+
+.flexequip {
+  display: flex;
+}
+
+/* flex */
+li {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.fontContenido {
+  font-size: 27px;
+  color: #f9e71c;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#f9e71c, #2813b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  background-image: linear-gradient(135deg, #52E5E7 10%, #130CB7 100%);
+}
+
+.gridmainequipos {
+  display: grid;
+  grid-template-areas: "tituloequipos tituloequipos tituloequipos tituloequipos" "EquipA EquipB EquipC EquipD";
+  grid-template-columns: 25% 25% 25% 25%;
+  /* repeat(4, 25%) */
+  grid-template-rows: auto auto;
+}
+
+.tituloequipos {
+  grid-area: tituloequipos;
+}
+
+.EquipA {
+  grid-area: EquipA;
+}
+
+.EquipB {
+  grid-area: EquipB;
+}
+
+.EquipC {
+  grid-area: EquipC;
+}
+
+.EquipD {
+  grid-area: EquipD;
+}
+
+.Equip {
+  background-color: #aacc11;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+footer {
+  background: rgb(41, 20, 204);
+  background: linear-gradient(0deg, rgb(41, 20, 204) 29%, rgb(225, 237, 24) 33%, rgb(225, 237, 24) 70%, rgb(41, 20, 204) 72%);
+}
+
+.p20 {
+  padding: 20px;
+}
+
+img {
+  border-radius: 33px;
+}
+
+/* TABLET */
+@body {
+  background-color: silver;
+}
+.m-1 {
+  margin: 10px;
+}
+
+.m-2 {
+  margin: 20px;
+}
+
+.m-3 {
+  margin: 30px;
+}
+
+.m-4 {
+  margin: 40px;
+}
+
+.m-5 {
+  margin: 50px;
+}
+
+.pb-1 {
+  padding-bottom: 10px;
+}
+
+.pb-2 {
+  padding-bottom: 20px;
+}
+
+.pb-3 {
+  padding-bottom: 30px;
+}
+
+.pb-4 {
+  padding-bottom: 40px;
+}
+
+.pb-5 {
+  padding-bottom: 50px;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.text-silver {
+  color: silver;
+}
+
+.text-goldenrod {
+  color: goldenrod;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.p-desktop {
+  font-size: 4rem;
+}
+
+.p-mobile {
+  font-size: 2rem;
+}
+
+.p-tablet {
+  font-size: 2.3rem;
+}
+
+.boton, .boton-terciario, .boton-secundario, .boton-primario, .boton-advertencia, .boton-error, .boton-exito {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(170, 170, 204, 0.8);
+  color: gray;
+  border: 10px solid blue;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

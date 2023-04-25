@@ -16,7 +16,7 @@
 .boton-advertencia{}
 .boton-primario{}
 .boton-secundario{}
-.boton_terciario{}
+.boton-terciario{}
 
 @each $contexto in exito, error, advertencia, primario, secundario, terciario{
     .boton-#{$contexto}{

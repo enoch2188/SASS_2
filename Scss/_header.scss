@@ -5,6 +5,21 @@
     grid-template-rows:auto auto;
 }
 head{background-color: grey;}
-ul{list-style-type: none;}
-a{text-decoration: none;}
+li{padding: 20px;
+transition: 1s all;}
+ul{list-style-type: none;}  
+a{text-decoration: none;
+    transition: 1.5s all;}
 .img-fluid{width: 100%; height: auto;}
+li:hover {
+    color: $blue;
+    font-size: 20px;
+    background-color: $blue;
+    padding: 10px;
+    border-radius: 11px;
+  }
+header{background: rgb(41,20,204);
+    background: linear-gradient(0deg, rgba(41,20,204,1) 32%, rgba(225,237,24,1) 38%, rgba(225,237,24,1) 63%, rgba(41,20,204,1) 67%);
+}
+.hover{transition: 2s all;}
+   
