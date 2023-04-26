@@ -73,6 +73,7 @@ header {
 li {
   padding: 20px;
   transition: 1s all;
+  font-size: 25px;
 }
 
 ul {
@@ -84,26 +85,37 @@ a {
   transition: 1.5s all;
 }
 
+.atransi {
+  text-decoration: none;
+  transition: 1.5s all;
+}
+
 .img-fluid {
   width: 100%;
   height: auto;
 }
 
 li:hover {
-  color: blue;
-  font-size: 20px;
-  background-color: blue;
-  padding: 10px;
-  border-radius: 11px;
+  font-size: 50px;
+  padding: 16px;
+  border-radius: 45px;
+  background: -webkit-linear-gradient(#01016c, #b6b30f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-header {
+.hcolor {
   background: rgb(41, 20, 204);
-  background: linear-gradient(0deg, rgb(41, 20, 204) 32%, rgb(225, 237, 24) 38%, rgb(225, 237, 24) 63%, rgb(41, 20, 204) 67%);
+  background: linear-gradient(0deg, rgb(41, 20, 204) 21%, rgb(225, 237, 24) 97%);
 }
 
 .hover {
   transition: 2s all;
+}
+
+.encabezado {
+  position: static;
+  top: 0%;
 }
 
 /* MOBILE */
@@ -112,7 +124,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(135deg, #52E5E7 10%, #130CB7 100%);
+    background: rgb(41, 20, 204);
+    background: linear-gradient(0deg, rgb(41, 20, 204) 21%, rgb(225, 237, 24) 97%);
   }
   ul {
     display: flex;
@@ -192,6 +205,7 @@ body {
   a {
     color: black;
     font-size: 28px;
+    text-decoration: none;
     padding: 5px;
     margin: 10px;
   }
@@ -201,14 +215,13 @@ body {
   .flexequip {
     display: flex;
   }
-  /* flex */
-  a {
-    text-decoration: none;
-    font-size: 22px;
-  }
   .fontContenido {
-    font-size: 27px;
-    color: #f9e71c;
+    font-size: 17px;
+    color: #b6a80e;
+  }
+  .fontContenidoTitulo {
+    font-size: 23px;
+    color: blue;
   }
   h1 {
     text-align: center;
@@ -243,14 +256,10 @@ body {
     grid-area: EquipD;
   }
   .Equip {
-    background-color: #aacc11;
+    background-color: #c7ef13;
     padding: 5px;
     margin: 10px;
     border-radius: 20px;
-  }
-  footer {
-    background: rgb(41, 20, 204);
-    background: linear-gradient(0deg, rgb(41, 20, 204) 29%, rgb(225, 237, 24) 33%, rgb(225, 237, 24) 70%, rgb(41, 20, 204) 72%);
   }
   .p20 {
     padding: 20px;
