@@ -78,3 +78,18 @@ body{
 
 .p20{padding: 20px;}
 img{border-radius: 25px;}}
+
+#carouselExampleIndicators img {
+  max-height: 400px;
+  width: 100%;
+}
+
+.carousel-item img {
+  height: 400px;
+}
+
+.carousel-item img.img-fluid {
+  height: auto;
+  max-height: 400px;
+}
+
