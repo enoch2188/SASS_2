@@ -13,4 +13,29 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
- 
+  .card {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .cardEquip {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+    color: #b6a80e
+  }
+  .card-text{ 
+    font-size: 25px;
+  }
+  #carouselExampleIndicators img {
+    max-height: 400px;
+    width: 100%;
+  }
+  
+  .carousel-item img {
+    height: 400px;
+  }
+  
+  .carousel-item img.img-fluid {
+    height: auto;
+    max-height: 400px;
+  }
