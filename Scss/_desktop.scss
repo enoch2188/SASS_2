@@ -1,32 +1,7 @@
 /* DESKTOP */
 @media (min-width:1024px){
     /* GRID INDEX */
-    .gridindex{
-     display: grid;
-     grid-template-columns: 100%;
-     grid-template-rows: auto auto auto;
-    }
-
-    .gridindex2{
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: auto auto ;
-      }
-   header, footer, ul{display: flex;}
-   main{
-    display: grid;
-    grid-template-areas: 
-    "imgPrincipal imgPrincipal imgPrincipal"
-    "titulo titulo titulo"
-    "pIzq imgTexto pDer";
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3,auto);
-   }
-.imgPrincipal{grid-area: imgPrincipal;}
-.titulo{grid-area: titulo;}
-.parrafoIzq{grid-area: pIzq;}
-.imgtexto{grid-area: imgtexto;}
-.parrafoDer{grid-area: pDer;}
+header, footer, ul{display: flex;}    
 .just-content-spa-betw{     
     justify-content: space-between;}
 .align-items-center{align-items: center;}

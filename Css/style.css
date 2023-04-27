@@ -63,7 +63,7 @@ div.logo {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   font-size: 17px;
-  padding: 10px;
+  padding: 16px;
   color: #b6a80e;
 }
 
@@ -83,6 +83,22 @@ div.logo {
 .carousel-item img.img-fluid {
   height: auto;
   max-height: 400px;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.25rem;
 }
 
 .grid div {
@@ -190,39 +206,8 @@ body {
 /* DESKTOP */
 @media (min-width: 1024px) {
   /* GRID INDEX */
-  .gridindex {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto;
-  }
-  .gridindex2 {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto;
-  }
   header, footer, ul {
     display: flex;
-  }
-  main {
-    display: grid;
-    grid-template-areas: "imgPrincipal imgPrincipal imgPrincipal" "titulo titulo titulo" "pIzq imgTexto pDer";
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, auto);
-  }
-  .imgPrincipal {
-    grid-area: imgPrincipal;
-  }
-  .titulo {
-    grid-area: titulo;
-  }
-  .parrafoIzq {
-    grid-area: pIzq;
-  }
-  .imgtexto {
-    grid-area: imgtexto;
-  }
-  .parrafoDer {
-    grid-area: pDer;
   }
   .just-content-spa-betw {
     justify-content: space-between;

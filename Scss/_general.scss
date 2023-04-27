@@ -20,7 +20,7 @@
     background-color: rgba(255, 255, 255, 1);
     border-radius: 10px;
     font-size: 17px;
-    padding: 10px;
+    padding: 16px;
     color: #b6a80e
   }
   .card-text{ 
@@ -39,3 +39,55 @@
     height: auto;
     max-height: 400px;
   }
+
+  // .gridmainRoman {
+  //   display: grid;
+  //   grid-template-areas: 
+  //     "tituloRoman"
+  //     "RomanA"
+  //     "RomanB"
+  //     "RomanC"
+  //     "RomanD";
+  //   grid-template-columns: 100%;
+  // }
+  
+  // .tituloRoman {
+  //   grid-area: tituloRoman;
+  // }
+  
+  // .RomanA {
+  //   grid-area: RomanA;
+  // }
+  
+  // .RomanB {
+  //   grid-area: RomanB;
+  // }
+  
+  // .RomanC {
+  //   grid-area: RomanC;
+  // }
+  
+  // .RomanD {
+  //   grid-area: RomanD;
+  // }
+
+  // ROMAN.HTML
+  .container {
+    margin-top: 100px;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.25rem;
+  }
+  
+  
+  
+  
