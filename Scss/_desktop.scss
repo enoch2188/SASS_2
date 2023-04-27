@@ -1,7 +1,7 @@
-/* DESKTOP */
-@media (min-width:1024px){
+// /* DESKTOP */
+// @media (min-width:1024px){
     /* GRID INDEX */
-header, footer, ul{display: flex;}    
+header,body,main, ul{display: flex;}    
 .just-content-spa-betw{     
     justify-content: space-between;}
 .align-items-center{align-items: center;}
@@ -46,14 +46,14 @@ body{
         background-color: $colorPrincipal; padding: 5px; 
         margin: 10px; border-radius: 20px;}
 
-// footer{
-// // {background: rgb(12,19,107);
-// //     background: linear-gradient(0deg, rgba(12,19,107,1) 6%, rgba(45,63,193,1) 26%, rgba(80,130,203,1) 45%, rgba(121,121,143,1) 94%);
-// background: rgb(41,20,204);
-// background: linear-gradient(0deg, rgba(41,20,204,1) 29%, rgba(225,237,24,1) 33%, rgba(225,237,24,1) 70%, rgba(41,20,204,1) 72%);}
+footer{
+// {background: rgb(12,19,107);
+//     background: linear-gradient(0deg, rgba(12,19,107,1) 6%, rgba(45,63,193,1) 26%, rgba(80,130,203,1) 45%, rgba(121,121,143,1) 94%);
+background: rgb(41,20,204);
+background: linear-gradient(0deg, rgba(41,20,204,1) 29%, rgba(225,237,24,1) 33%, rgba(225,237,24,1) 70%, rgba(41,20,204,1) 72%);}
 
 .p20{padding: 20px;}
-img{border-radius: 25px;}}
+img{border-radius: 25px;}
 
 
 

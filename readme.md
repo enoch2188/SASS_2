@@ -168,3 +168,9 @@
 .parrafoIzq{grid-area: pIzq;}
 .imgtexto{grid-area: imgtexto;}
 .parrafoDer{grid-area: pDer;}
+
+.hcolor{background: rgb(41,20,204);
+    background: linear-gradient(0deg, rgba(41,20,204,1) 21%, rgba(225,237,24,1) 97%);
+}
+
+rgba(41,20,204,1)
