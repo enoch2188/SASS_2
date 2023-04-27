@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @keyframes animaciones-logo {
   0% {
     transform: translate(50px, -50px);
@@ -71,6 +72,18 @@ div.logo {
   font-size: 25px;
 }
 
+.carousel {
+  max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 0 auto; /* Centra el carrusel horizontalmente */
+}
+.carousel img {
+  max-height: 400px; /* Ajusta la altura máxima de las imágenes según tus necesidades */
+  max-width: 100%; /* Ajusta el ancho máximo de las imágenes según tus necesidades */
+  height: auto; /* Ajusta la altura de las imágenes proporcionalmente al ancho */
+  width: auto; /* Ajusta el ancho de las imágenes proporcionalmente al alto */
+  margin: 0 auto; /* Centra las imágenes horizontalmente */
+}
+
 #carouselExampleIndicators img {
   max-height: 400px;
   width: 100%;
@@ -101,6 +114,30 @@ p {
   font-size: 1.25rem;
 }
 
+.fontContenido {
+  font-size: 17px;
+  color: #b6a80e;
+}
+
+.fontContenidoTitulo {
+  font-size: 23px;
+  color: blue;
+}
+
+.no-background {
+  background-image: none;
+}
+
+.highlight {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  text-align: -webkit-center;
+}
+
 .grid div {
   border: 1px solid black;
 }
@@ -128,6 +165,7 @@ ul {
 a {
   text-decoration: none;
   transition: 1.5s all;
+  color: #030ae7;
 }
 
 .atransi {
@@ -144,14 +182,14 @@ li:hover {
   font-size: 50px;
   padding: 16px;
   border-radius: 45px;
-  background: -webkit-linear-gradient(#01016c, #b6b30f);
+  background: -webkit-linear-gradient(whitesmoke, silver);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .hcolor {
-  background: rgb(41, 20, 204);
-  background: linear-gradient(0deg, rgb(41, 20, 204) 21%, rgb(225, 237, 24) 97%);
+  background: #030ae7;
+  background: linear-gradient(0deg, #030ae7 21%, rgb(225, 237, 24) 97%);
 }
 
 .hover {
@@ -239,12 +277,13 @@ body {
   h1 {
     text-align: center;
     font-size: 72px;
-    background: -webkit-linear-gradient(#f9e71c, #2813b0);
+    background: -webkit-linear-gradient(#f9e71c, #e5f124);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   body {
-    background-image: linear-gradient(135deg, #52E5E7 10%, #130CB7 100%);
+    background-color: #030ae7;
+    background-image: linear-gradient(180deg, #030ae7 12%, #130490 33%, #9858ff 66%, #e5f124 100%);
   }
   .gridmainequipos {
     display: grid;

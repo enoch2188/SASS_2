@@ -5,25 +5,29 @@
     grid-template-rows:auto auto;
 }
 header{border-radius: 25px;}
-li{padding: 20px;
+li{
+padding: 20px;
 transition: 1s all;
 font-size: 25px;}
 ul{list-style-type: none;}  
 a{text-decoration: none;
-    transition: 1.5s all;}
+    transition: 1.5s all;
+    color: #030ae7;
+}
 .atransi{text-decoration: none;
         transition: 1.5s all;}    
 .img-fluid{width: 100%; height: auto;}
 li:hover {
+    
     font-size: 50px;
     padding: 16px;
     border-radius: 45px;
-    background: -webkit-linear-gradient(#01016c, #b6b30f);
+    background: -webkit-linear-gradient(whitesmoke, silver);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-.hcolor{background: rgb(41,20,204);
-    background: linear-gradient(0deg, rgba(41,20,204,1) 21%, rgba(225,237,24,1) 97%);
+.hcolor{background: #030ae7;
+    background: linear-gradient(0deg, #030ae7 21%, rgba(225,237,24,1) 97%)
 }
 .hover{transition: 2s all;}
 .encabezado{

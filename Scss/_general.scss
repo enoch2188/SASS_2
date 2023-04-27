@@ -26,6 +26,19 @@
   .card-text{ 
     font-size: 25px;
   }
+  // Carrousel
+  .carousel {
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+  
+    img {
+      max-height: 400px; /* Ajusta la altura máxima de las imágenes según tus necesidades */
+      max-width: 100%; /* Ajusta el ancho máximo de las imágenes según tus necesidades */
+      height: auto; /* Ajusta la altura de las imágenes proporcionalmente al ancho */
+      width: auto; /* Ajusta el ancho de las imágenes proporcionalmente al alto */
+      margin: 0 auto; /* Centra las imágenes horizontalmente */
+    }
+  }
   #carouselExampleIndicators img {
     max-height: 400px;
     width: 100%;
@@ -88,6 +101,20 @@
     font-size: 1.25rem;
   }
   
-  
-  
-  
+  .fontContenido{ font-size: 17px;
+    color: #b6a80e;    
+}
+.fontContenidoTitulo{ font-size: 23px;
+    color: blue;    
+}
+.no-background {
+  background-image: none;
+}
+.highlight {
+  font-size: 25px;
+  font-weight: bold;
+}
+.center {
+  display: block;
+  text-align: -webkit-center;
+}
