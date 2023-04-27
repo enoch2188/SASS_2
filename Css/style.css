@@ -69,6 +69,7 @@ div.logo {
 }
 
 .card-text {
+  padding: 10px;
   font-size: 25px;
 }
 
