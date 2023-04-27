@@ -3,13 +3,13 @@
 .p20{padding: 20px;}
 .img-fluid{width: 100%; height: auto;}
 .text-gradient {
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#060101, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 .text-gradientNav {
     font-size: 30px;
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#000000, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -29,7 +29,7 @@
   // Carrousel
   .carousel {
     max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
-    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    margin: 0 auto;} /* Centra el carrusel horizontalmente */
   
     img {
       max-height: 400px; /* Ajusta la altura máxima de las imágenes según tus necesidades */
@@ -38,7 +38,7 @@
       width: auto; /* Ajusta el ancho de las imágenes proporcionalmente al alto */
       margin: 0 auto; /* Centra las imágenes horizontalmente */
     }
-  }
+  
   #carouselExampleIndicators img {
     max-height: 400px;
     width: 100%;
@@ -52,39 +52,11 @@
     height: auto;
     max-height: 400px;
   }
-
-  // .gridmainRoman {
-  //   display: grid;
-  //   grid-template-areas: 
-  //     "tituloRoman"
-  //     "RomanA"
-  //     "RomanB"
-  //     "RomanC"
-  //     "RomanD";
-  //   grid-template-columns: 100%;
-  // }
-  
-  // .tituloRoman {
-  //   grid-area: tituloRoman;
-  // }
-  
-  // .RomanA {
-  //   grid-area: RomanA;
-  // }
-  
-  // .RomanB {
-  //   grid-area: RomanB;
-  // }
-  
-  // .RomanC {
-  //   grid-area: RomanC;
-  // }
-  
-  // .RomanD {
-  //   grid-area: RomanD;
-  // }
-
-  // ROMAN.HTML
+  .gridmainequipos {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, #0a0b0b 10%, #0a0754 100%);
+  }
   .container {
     margin-top: 100px;
   }
@@ -105,14 +77,18 @@
     color: #b6a80e;    
 }
 .fontContenidoTitulo{ font-size: 23px;
-    color: blue;    
-}
-.no-background {
+    color: gold;}  
+  
+.fontContenidoroman{ font-size: 17px;
+      color: black;}   
+
+.nobackground {
   background-image: none;
 }
-.highlight {
-  font-size: 25px;
+.highligth {
+  font-size: 40px;
   font-weight: bold;
+  color: blue;
 }
 .center {
   display: block;

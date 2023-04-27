@@ -15,11 +15,11 @@
 
 // EACH
 
-@each $color in grey, silver, goldenrod, blue,{
-    .text-#{$color}{
-        color:#{$color};
-    }
-}
+// @each $color in grey, silver, goldenrod, blue,{
+//     .text-#{$color}{
+//         color:#{$color};
+//     }
+// }
 // MAPA
 
 $dispo:(
@@ -41,9 +41,3 @@ $estilosTipograficos:(
     display:flex, 
     fFamily:'arial',
 )
-
-// h1{
-//     font-size:map-get($estilosTipograficos, fSize);
-//     color:map-get($estilosTipograficos,fColor);
-//     font-family:map-get($estilosTipograficos,fFamily);
-// }

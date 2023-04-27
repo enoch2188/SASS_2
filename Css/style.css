@@ -44,14 +44,14 @@ div.logo {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(#eee, #333);
+  background: -webkit-linear-gradient(#060101, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .text-gradientNav {
   font-size: 30px;
-  background: -webkit-linear-gradient(#eee, #333);
+  background: -webkit-linear-gradient(#000000, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -74,9 +74,9 @@ div.logo {
 
 .carousel {
   max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
-  margin: 0 auto; /* Centra el carrusel horizontalmente */
-}
-.carousel img {
+  margin: 0 auto;
+} /* Centra el carrusel horizontalmente */
+img {
   max-height: 400px; /* Ajusta la altura máxima de las imágenes según tus necesidades */
   max-width: 100%; /* Ajusta el ancho máximo de las imágenes según tus necesidades */
   height: auto; /* Ajusta la altura de las imágenes proporcionalmente al ancho */
@@ -96,6 +96,12 @@ div.logo {
 .carousel-item img.img-fluid {
   height: auto;
   max-height: 400px;
+}
+
+.gridmainequipos {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(135deg, #0a0b0b 10%, #0a0754 100%);
 }
 
 .container {
@@ -121,16 +127,22 @@ p {
 
 .fontContenidoTitulo {
   font-size: 23px;
-  color: blue;
+  color: gold;
 }
 
-.no-background {
+.fontContenidoroman {
+  font-size: 17px;
+  color: black;
+}
+
+.nobackground {
   background-image: none;
 }
 
-.highlight {
-  font-size: 25px;
+.highligth {
+  font-size: 40px;
   font-weight: bold;
+  color: blue;
 }
 
 .center {
@@ -182,7 +194,7 @@ li:hover {
   font-size: 50px;
   padding: 16px;
   border-radius: 45px;
-  background: -webkit-linear-gradient(whitesmoke, silver);
+  background: -webkit-linear-gradient(rgb(23, 20, 20), rgb(6, 5, 5));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -282,8 +294,7 @@ body {
     -webkit-text-fill-color: transparent;
   }
   body {
-    background-color: #030ae7;
-    background-image: linear-gradient(180deg, #030ae7 12%, #130490 33%, #9858ff 66%, #e5f124 100%);
+    background-image: linear-gradient(135deg, #52E5E7 10%, #130CB7 100%);
   }
   .gridmainequipos {
     display: grid;
@@ -384,22 +395,6 @@ footer {
   padding-bottom: 50px;
 }
 
-.text-grey {
-  color: grey;
-}
-
-.text-silver {
-  color: silver;
-}
-
-.text-goldenrod {
-  color: goldenrod;
-}
-
-.text-blue {
-  color: blue;
-}
-
 .p-desktop {
   font-size: 4rem;
 }
@@ -416,8 +411,8 @@ footer {
   width: 200px;
   height: 50px;
   text-align: center;
-  background-color: rgba(170, 170, 204, 0.8);
-  color: gray;
+  background-color: #000;
+  color: black;
   border: 10px solid blue;
   border-radius: 20px;
   padding: 10px;
