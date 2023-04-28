@@ -1,31 +1,4 @@
 @charset "UTF-8";
-@keyframes animaciones-logo {
-  0% {
-    transform: translate(50px, -50px);
-  }
-  20% {
-    transform: scale(1.5, 1.5);
-  }
-  40% {
-    transform: rotate(360deg);
-  }
-  60% {
-    transform: scale(1, 2);
-  }
-  80% {
-    transform: skew(50deg, 30deg);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-div.logo {
-  animation-name: animaciones-logo;
-  animation-iteration-count: 10s;
-  animation-duration: 8s;
-  animation-delay: 1s;
-}
-
 .mb20 {
   margin-bottom: 20px;
 }
@@ -56,16 +29,12 @@ div.logo {
   -webkit-text-fill-color: transparent;
 }
 
-.card {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
 .cardEquip {
-  background-color: rgb(253, 255, 255);
+  background-color: #fff;
   border-radius: 10px;
   font-size: 17px;
   padding: 16px;
-  color: #b6a80e;
+  color: goldenrod;
 }
 
 .card-text {
@@ -115,9 +84,10 @@ img {
 
 h2 {
   text-align: center;
-  font-size: 72px;
-  background: -webkit-linear-gradient(#0901a2, #0124ac);
+  font-size: 50%;
+  background: -webkit-linear-gradient(#000a1a, #fbfbfa);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: blue;
   -webkit-text-fill-color: transparent;
 }
 
@@ -262,6 +232,7 @@ h1 {
   font-size: 72px;
   background: -webkit-linear-gradient(#f9e71c, #e5f124);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: blue;
   -webkit-text-fill-color: transparent;
 }
 
@@ -394,33 +365,6 @@ img {
 
 .scale2 {
   transform: scale(1, 0.3);
-}
-
-@keyframes animaciones-logo {
-  0% {
-    transform: translate(50px, -50px);
-  }
-  20% {
-    transform: scale(1.5, 1.5);
-  }
-  40% {
-    transform: rotate(360deg);
-  }
-  60% {
-    transform: scale(1, 2);
-  }
-  80% {
-    transform: skew(50deg, 30deg);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-div.logo {
-  animation-name: animaciones-logo;
-  animation-iteration-count: 10s;
-  animation-duration: 8s;
-  animation-delay: 1s;
 }
 
 /*# sourceMappingURL=style.css.map */
