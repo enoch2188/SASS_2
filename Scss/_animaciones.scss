@@ -1,0 +1,25 @@
+@keyframes animaciones-logo{
+    0%{
+        transform: translate(50px,-50px);
+    }
+    20%{
+        transform: scale(1.5,1.5);
+    }
+    40%{transform: rotate(360deg);
+    }
+    60%{
+        transform:scale(1,2);
+    }
+    80%{transform: skew(50deg,30deg);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+// aplicar la animaciones en una selectora de etiqueta, clase o id
+div.logo{
+    animation-name: animaciones-logo;
+    animation-iteration-count: 10s;
+    animation-duration: 8s;
+    animation-delay: 1s;  
+}

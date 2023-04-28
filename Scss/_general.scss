@@ -3,13 +3,99 @@
 .p20{padding: 20px;}
 .img-fluid{width: 100%; height: auto;}
 .text-gradient {
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#060101, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 .text-gradientNav {
     font-size: 30px;
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#000000, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .card {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .cardEquip {
+    background-color: rgb(253, 255, 255);
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 16px;
+    color: #b6a80e
+  }
+  .card-text{ 
+    padding: 10px;
+    font-size: 25px;
+  }
+  // Carrousel
+  .carousel {
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto;} /* Centra el carrusel horizontalmente */
+  
+    img {
+      max-height: 400px; /* Ajusta la altura máxima de las imágenes según tus necesidades */
+      max-width: 100%; /* Ajusta el ancho máximo de las imágenes según tus necesidades */
+      height: auto; /* Ajusta la altura de las imágenes proporcionalmente al ancho */
+      width: auto; /* Ajusta el ancho de las imágenes proporcionalmente al alto */
+      margin: 0 auto; /* Centra las imágenes horizontalmente */
+    }
+  
+  #carouselExampleIndicators img {
+    max-height: 400px;
+    width: 100%;
+  }
+  
+  .carousel-item img {
+    height: 400px;
+  }
+  
+  .carousel-item img.img-fluid {
+    height: auto;
+    max-height: 400px;
+  }
+  .gridmainequipos {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, #0a0b0b 10%, #0a0754 100%);
+  }
+  .container {
+    margin-top: 100px;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#0901a2, #0124ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  p {
+    font-size: 1.25rem;
+  }
+  
+  .fontContenido{ font-size: 17px;
+    color: #b6a80e;    
+}
+.fontContenidoTitulo{ font-size: 23px;
+    color: gold;}  
+  
+.fontContenidoroman{ font-size: 17px;
+      color: black;}   
+
+.nobackground {
+  background-image: none;
+}
+.highligth {
+  font-size: 40px;
+  font-weight: bold;
+  color: blue;
+}
+.center {
+  display: block;
+  text-align: -webkit-center;
+}

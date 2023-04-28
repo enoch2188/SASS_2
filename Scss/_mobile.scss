@@ -1,106 +1,40 @@
-/* MOBILE */
-@media (max-width:768px){
-        header,body,main,footer{display:flex;
-        flex-direction: column;align-items: 
-        center; background-image: linear-gradient(135deg, #52E5E7 10%, #130CB7 100%);}
-        ul{display: flex;padding: 0px;}
-        .transform{transform: translate(0px, 1px);}
-        a{color: blue; font-size: 15px;
-        padding: 5px; margin: 5px;}
-        p{font-size: 20px;}
-        // .gridmainequipos{
-        //     display: flex;
-        //     flex-direction: column;
-        // }
-    }
-header{
-    background: rgb(41,20,204);
-    background: linear-gradient(0deg, rgba(41,20,204,1) 32%, rgba(225,237,24,1) 38%, rgba(225,237,24,1) 63%, rgba(41,20,204,1) 67%);
-}
-body{
-    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
-}
-.encabezado{
-    position: static; top: 0%;
-}
+// /* MOBILE */
+// @media (max-width:768px){
+//         header{display:flex;
+//         flex-direction: column;align-items: center;
+//         background: rgb(41,20,204);
+//         background: linear-gradient(0deg, rgba(41,20,204,1) 21%, rgba(225,237,24,1) 97%);}
+//         ul{display: flex;padding: 0px;}
+//         .transform{transform: translate(0px, 1px);}
+//         a{color: blue; font-size: 15px;
+//         padding: 5px; margin: 5px;}
+//         p{font-size: 20px;}
+//         h1{text-align: center;
+//             font-size: 72px;
+//             background: -webkit-linear-gradient(#f9e71c, #e5f124);
+//             -webkit-background-clip: text;
+//             -webkit-text-fill-color: transparent;
+//         }
+//         h2 {
+//             text-align: center;
+//             font-size: 72px;
+//             background: -webkit-linear-gradient(#080a56, #020f51);
+//             -webkit-background-clip: text;
+//             -webkit-text-fill-color: transparent;
+//           }
+    
+// header{
+//     background: rgb(41,20,204);
+//     background: linear-gradient(0deg, rgba(41,20,204,1) 32%, rgba(225,237,24,1) 38%, rgba(225,237,24,1) 63%, rgba(41,20,204,1) 67%);
+// }
+// body{
+//     background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);}
 
-/* Estilos para dispositivos móviles y tabletas */
-// @media (max-width:768px) 
-//     {
-//     .gridindex{
-//         display: grid;
-//         grid-template-columns: 100%;
-//         grid-template-rows: auto auto auto;
-//            }    
-//     body{
-//             background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);} 
-//     }
-//     header{
-//         position: static;
-//         top: 0%;
-//         height: auto;
-//         padding: 1px;
-//         border-radius: 25px;}
-//     li{padding: 20px;
-//         transition: 1s all;}
-//     ul{
-//         list-style-type: none;}  
-//     a{
-//         text-decoration: none;
-//         transition: 1.5s all;}
-//     .img-fluid{width: 100%; height: auto;}
-//     li:hover {
-//         color: $blue;
-//         font-size: 20px;
-//         background-color: $blue;
-//         padding: 10px;
-//         border-radius: 11px;
-//   }
-//     .encabezado{
-//         margin-top: 20px;
-//         margin-bottom: 20px;
-//     }
-
-//     main{
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         margin-top: 20px;
-//         margin-bottom: 20px;
-//     }
-
-//     .gridmainequipos{
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         margin-top: 20px;
-//         margin-bottom: 20px;
-//     }
-
-//     ul{
-//         display: flex;
-//         flex-wrap: wrap;
-//         justify-content: center;
-//         padding: 0px;
-//         margin-top: 20px;
-//         margin-bottom: 20px;
-//     }
-
-//     li{
-//         width: 100%;
-//         text-align: center;
-//         margin-bottom: 10px;
-//     }
-
-//     a{
-//         color: blue;
-//         font-size: 15px;
-//         padding: 5px;
-//     }
-
-//     p{
-//         font-size: 20px;
-//         text-align: center;
-//         margin-top: 20px;
-//         margin-bottom: 20px;
-//     }
+// .encabezado{
+//     position: static; top: 0%;
+// }
+// footer{
+//     background: rgb(41,20,204);
+// background: linear-gradient(0deg, rgba(41,20,204,1) 29%, rgba(225,237,24,1) 33%, rgba(225,237,24,1) 70%, rgba(41,20,204,1) 72%);
+// }
+// }
