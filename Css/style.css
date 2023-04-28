@@ -115,7 +115,6 @@ h2 {
   background: -webkit-linear-gradient(#000a1a, #fbfbfa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: blue;
-  -webkit-text-fill-color: transparent;
 }
 
 p {
@@ -257,8 +256,7 @@ a {
 h1 {
   text-align: center;
   font-size: 72px;
-  background: -webkit-linear-gradient(#f9e71c, #0e0f00);
-  -webkit-text-fill-color: transparent;
+  color: goldenrod;
 }
 
 body {
@@ -316,18 +314,6 @@ img {
 @body {
   background-color: silver;
 }
-.p-desktop {
-  font-size: 4rem;
-}
-
-.p-mobile {
-  font-size: 2rem;
-}
-
-.p-tablet {
-  font-size: 2.3rem;
-}
-
 .transform {
   transform: translate(10px, 43px);
 }
