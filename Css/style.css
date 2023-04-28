@@ -56,16 +56,12 @@ div.logo {
   -webkit-text-fill-color: transparent;
 }
 
-.card {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
 .cardEquip {
-  background-color: rgb(253, 255, 255);
+  background-color: #fff;
   border-radius: 10px;
   font-size: 17px;
   padding: 16px;
-  color: #b6a80e;
+  color: goldenrod;
 }
 
 .card-text {
@@ -115,9 +111,10 @@ img {
 
 h2 {
   text-align: center;
-  font-size: 72px;
-  background: -webkit-linear-gradient(#0901a2, #0124ac);
+  font-size: 50%;
+  background: -webkit-linear-gradient(#000a1a, #fbfbfa);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: blue;
   -webkit-text-fill-color: transparent;
 }
 
@@ -127,12 +124,12 @@ p {
 
 .fontContenido {
   font-size: 17px;
-  color: #b6a80e;
+  color: goldenrod;
 }
 
 .fontContenidoTitulo {
   font-size: 23px;
-  color: gold;
+  color: blue;
 }
 
 .fontContenidoroman {
@@ -261,7 +258,6 @@ h1 {
   text-align: center;
   font-size: 72px;
   background: -webkit-linear-gradient(#f9e71c, #0e0f00);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -341,23 +337,23 @@ img {
 }
 
 .pb-1 {
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 .pb-2 {
-  padding-bottom: 20px;
+  padding-bottom: 100px;
 }
 
 .pb-3 {
-  padding-bottom: 30px;
+  padding-bottom: 150px;
 }
 
 .pb-4 {
-  padding-bottom: 40px;
+  padding-bottom: 200px;
 }
 
 .pb-5 {
-  padding-bottom: 50px;
+  padding-bottom: 250px;
 }
 
 .p-desktop {
@@ -370,18 +366,6 @@ img {
 
 .p-tablet {
   font-size: 2.3rem;
-}
-
-.boton, .boton-terciario, .boton-secundario, .boton-primario, .boton-advertencia, .boton-error, .boton-exito {
-  width: 200px;
-  height: 50px;
-  text-align: center;
-  background-color: #000;
-  color: black;
-  border: 10px solid blue;
-  border-radius: 20px;
-  padding: 10px;
-  margin: 10px;
 }
 
 .transform {
