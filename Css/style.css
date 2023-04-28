@@ -88,11 +88,20 @@ h2 {
   background: -webkit-linear-gradient(#000a1a, #fbfbfa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: blue;
-  -webkit-text-fill-color: transparent;
 }
 
 p {
   font-size: 1.25rem;
+}
+
+.fontContenido {
+  font-size: 17px;
+  color: goldenrod;
+}
+
+.fontContenidoTitulo {
+  font-size: 23px;
+  color: blue;
 }
 
 .fontContenidoroman {
@@ -207,23 +216,10 @@ a {
   display: flex;
 }
 
-.fontContenido {
-  font-size: 17px;
-  color: goldenrod;
-}
-
-.fontContenidoTitulo {
-  font-size: 23px;
-  color: blue;
-}
-
 h1 {
   text-align: center;
   font-size: 72px;
-  background: -webkit-linear-gradient(#f9e71c, #e5f124);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: blue;
-  -webkit-text-fill-color: transparent;
+  color: goldenrod;
 }
 
 body {
@@ -281,70 +277,6 @@ img {
 @body {
   background-color: silver;
 }
-.m-1 {
-  margin: 10px;
-}
-
-.m-2 {
-  margin: 20px;
-}
-
-.m-3 {
-  margin: 30px;
-}
-
-.m-4 {
-  margin: 40px;
-}
-
-.m-5 {
-  margin: 50px;
-}
-
-.pb-1 {
-  padding-bottom: 10px;
-}
-
-.pb-2 {
-  padding-bottom: 20px;
-}
-
-.pb-3 {
-  padding-bottom: 30px;
-}
-
-.pb-4 {
-  padding-bottom: 40px;
-}
-
-.pb-5 {
-  padding-bottom: 50px;
-}
-
-.p-desktop {
-  font-size: 4rem;
-}
-
-.p-mobile {
-  font-size: 2rem;
-}
-
-.p-tablet {
-  font-size: 2.3rem;
-}
-
-.boton, .boton-terciario, .boton-secundario, .boton-primario, .boton-advertencia, .boton-error, .boton-exito {
-  width: 200px;
-  height: 50px;
-  text-align: center;
-  background-color: #000;
-  color: black;
-  border: 10px solid blue;
-  border-radius: 20px;
-  padding: 10px;
-  margin: 10px;
-}
-
 .transform {
   transform: translate(10px, 43px);
 }

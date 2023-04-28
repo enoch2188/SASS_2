@@ -71,14 +71,19 @@
     background: -webkit-linear-gradient(#000a1a, #fbfbfa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: $blue;
-    -webkit-text-fill-color: transparent;
+    
   }
   
   p {
     font-size: 1.25rem;
   }
   
-  
+.fontContenido{ font-size: 17px;
+    color: $goldenrod;    
+}
+.fontContenidoTitulo{ font-size: 23px;
+    color: blue;    
+}  
   
 .fontContenidoroman{ font-size: 17px;
       color: black;}   

@@ -12,18 +12,9 @@ a{color: black; font-size: 28px;
     space-between;}
 .flexequip{display: flex;}
 
-.fontContenido{ font-size: 17px;
-    color: $goldenrod;    
-}
-.fontContenidoTitulo{ font-size: 23px;
-    color: blue;    
-}
 h1{text-align: center;
     font-size: 72px;
-    background: -webkit-linear-gradient(#f9e71c, #e5f124);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: $blue;
-    -webkit-text-fill-color: transparent;
+    color: $goldenrod;
 }
 
 body{
