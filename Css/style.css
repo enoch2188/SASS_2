@@ -316,46 +316,6 @@ img {
 @body {
   background-color: silver;
 }
-.m-1 {
-  margin: 10px;
-}
-
-.m-2 {
-  margin: 20px;
-}
-
-.m-3 {
-  margin: 30px;
-}
-
-.m-4 {
-  margin: 40px;
-}
-
-.m-5 {
-  margin: 50px;
-}
-
-.pb-1 {
-  padding-bottom: 50px;
-}
-
-.pb-2 {
-  padding-bottom: 100px;
-}
-
-.pb-3 {
-  padding-bottom: 150px;
-}
-
-.pb-4 {
-  padding-bottom: 200px;
-}
-
-.pb-5 {
-  padding-bottom: 250px;
-}
-
 .p-desktop {
   font-size: 4rem;
 }

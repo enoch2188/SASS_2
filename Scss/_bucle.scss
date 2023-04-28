@@ -1,17 +1,17 @@
 // BUCLES
 // #{$nombreVariable} -> interpolacion
 // significa que el valor que tomo la variable va a pasarse al momento de interpolarse
-@for $i from 1 through 5{
-    .m-#{$i}{
-        margin: 10px * $i;
-    }
-}
+// @for $i from 1 through 5{
+//     .m-#{$i}{
+//         margin: 10px * $i;
+//     }
+// }
 
-@for $padding from 1 through 5{
-    .pb-#{$padding}{
-        padding-bottom: 50px * $padding;
-    }
-}
+// @for $padding from 1 through 5{
+//     .pb-#{$padding}{
+//         padding-bottom: 50px * $padding;
+//     }
+// }
 
 // EACH
 
