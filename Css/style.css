@@ -124,6 +124,11 @@ p {
   text-align: -webkit-center;
 }
 
+.site-footer {
+  position: fixed;
+  bottom: 0;
+}
+
 .grid div {
   border: 1px solid black;
 }
@@ -264,6 +269,8 @@ body {
 footer {
   background: rgb(41, 20, 204);
   background: linear-gradient(0deg, rgb(41, 20, 204) 29%, rgb(225, 237, 24) 33%, rgb(225, 237, 24) 70%, rgb(41, 20, 204) 72%);
+  position: fixed;
+  bottom: 0;
 }
 
 .p20 {
