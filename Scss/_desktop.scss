@@ -18,7 +18,9 @@ h1{text-align: center;
 }
 
 body{
-    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);}
+    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+    position: relative;
+}
 .gridmainequipos{
         display: grid;
         grid-template-areas: 
@@ -43,6 +45,7 @@ footer{
 //     background: linear-gradient(0deg, rgba(12,19,107,1) 6%, rgba(45,63,193,1) 26%, rgba(80,130,203,1) 45%, rgba(121,121,143,1) 94%);
 background: rgb(41,20,204);
 background: linear-gradient(0deg, rgba(41,20,204,1) 29%, rgba(225,237,24,1) 33%, rgba(225,237,24,1) 70%, rgba(41,20,204,1) 72%);
+position:absolute;
 }
 
 .p20{padding: 20px;}
